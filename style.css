@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.cima{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+    max-height: 100%;
+    width: 100rem;
+    max-width: 100%;
+    background-color: rgb(5, 5, 5);
+}
+.cima>img{
+    height: 80%;
+}
+.barra-pesquisa{
+    width: 30%;
+}
+.barra-pesquisa>p{
+    color: aliceblue;
+    margin: 0px 0px 0px 10px;
+    font-size: 120%
+}
+.barra-pesquisa>#barra{
+    height: 40px;
+    width: 100%;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-position-x: 10px;
+    background-size: 30px;
+    background-color: aliceblue;
+    padding-inline-start: 50px;
+    text-align: left;
+    border: none;
+    border-radius: calc(0.5 * 40px);
+}
+.perfil{
+   background: url(https://lh3.googleusercontent.com/a/AItbvml9ObXg2gI9lMEDXt7SgDjz2X65QD5-DS7s_7x7=s83-c-mo);
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+   margin-right: 1%;
+   margin-top: -4%;
+}
